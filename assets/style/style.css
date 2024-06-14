@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+@font-face{
+    src: url(../fonts/Burlesk-Regular.ttf);
+    font-family: 'Bur';
+    font-weight: 500;
+}
+html{
+    background: url(../img/1666351853_3-mykaleidoscope-ru-p-krasivii-gradient-pinterest-3.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.happy{
+    margin-bottom: 1000px;
+}
+.happy .container h1{
+    font-family: 'Bur';
+    font-size: 150px;
+    font-weight: 500;
+    color: aliceblue;
+    margin: 0;
+}
+.happy .container h2{
+    font-family: 'Bur';
+    font-size: 90px;
+    font-weight: 500;
+    color: aliceblue;
+    margin: 0;
+}
+.happy .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 210px;
+}
+.pusto{
+    height: 1000px;
+}
+.pusto .container{
+    display: flex;
+    justify-content: center;
+}
+.pusto .container h3{
+    font-family: 'Bur';
+    font-size: 90px;
+    font-weight: 500;
+    color: aliceblue;
+    margin: 0;
+}
+.pusto .container .raz{
+    height: 500px;
+    width: 500px;
+    transition: .5s;
+}
+.pusto .container .raz:hover{
+    scale: 2;
+    transition: .3s;
+}
